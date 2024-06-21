@@ -1,0 +1,27 @@
+[
+{
+    "question": "Inside which HTML element do we put the JavaScript ?",
+    "choice1": "<script href= 'xxx.js'>", 
+    "choice2": "<script file= 'xxx.js'>", 
+    "choice3": "<script name= 'xxx.js'>", 
+    "choice4": "<script src= 'xxx.js'>",
+    "answer": 4
+},
+{
+    "question": "Which of the following is a security issue with web services?",
+    "choice1": "Confidentiality", 
+    "choice2": "Authentication", 
+    "choice3": "Network Security", 
+    "choice4": "All of the above",
+    "answer": 4
+},
+
+{
+    "question": "What SOAP stands for?",
+    "choice1": "State Access Object Protocol", 
+    "choice2": "State Allied Object Protocol", 
+    "choice3": "Simple Access Object Protocol", 
+    "choice4": "Simple Allied Object Protocol",
+    "answer": 3
+}
+]
