@@ -99,3 +99,6 @@
     height: 6rem;
     animation: rev-spin 2s linear infinite;
 }
+.hidden{
+    display: none;
+}
