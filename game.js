@@ -57,7 +57,6 @@ startGame = () => {
     availableQuestions = [...questions];
     console.log(availableQuestions);
     getNewQuestion();
-
     game.classList.remove('hidden');
     loader.classList.add('hidden');
 };
@@ -69,6 +68,7 @@ getNewQuestion = () => {
         // go to the end page
         localStorage.setItem('mostRecentScore', score);
         return window.location.assign('/quick-quiz-app/end.html');
+
     }
 
     questionCounter++;
