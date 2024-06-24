@@ -13,7 +13,7 @@
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem 0 rgba(86,185, 235, 0.5);
     transform: translateY(-0.1rem);
-    transition: transform 50ms;
+    transition: transform 150ms;
 }
 
 .choice-prefix {
@@ -90,15 +90,6 @@
     100%{ transform: rotate(360deg);}
 }
 
-#rev-loader{
-    align-items: center;
-    border: 1.6rem solid white;
-    border-radius: 50%;
-    border-top: 1.6rem solid black;
-    width: 6rem;
-    height: 6rem;
-    animation: rev-spin 2s linear infinite;
-}
 .hidden{
     display: none;
 }
